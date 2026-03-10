@@ -55,11 +55,5 @@ void main() {
     {'nombre': 'Android (Google Play)', 'gastoPromedio': 9.0},
   ];
 
-  print('--- Datos de entrada ---');
-  for (var p in plataformas) {
-    print('${p['nombre']}: \$${p['gastoPromedio']} USD/mes por usuario');
-  }
-  print('');
-
   analizarRentabilidad(plataformas);
 }
